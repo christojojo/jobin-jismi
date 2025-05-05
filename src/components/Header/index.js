@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Button from "../Button";
 
 const Header = () => {
   const menuItems = [
@@ -14,7 +15,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-transparent">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center w-full py-5">
+        <div className="flex justify-between items-center w-full py-20">
           <div className="flex items-center w-full">
             <Link href={"/"}>
               <figure className="relative w-[254px]">
@@ -34,9 +35,9 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className="flex items-center gap-x-10">
-            <p>search</p>
-            <button className="w-auto whitespace-nowrap">contact us</button>
+          <div className="flex items-center gap-x-[46px] w-auto">
+            <Image src={'/images/search.svg'} width={24} height={24}/>
+            <Button size="lg" variant="primary">Contact Us</Button>
           </div>
         </div>
       </div>
