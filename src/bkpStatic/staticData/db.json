@@ -1,0 +1,173 @@
+{
+  "home": {
+    "data": {
+      "seo": {
+        "id": 1,
+        "metaTitle": "Swan Global - is a prominent business process",
+        "metaDescription": "Applexus is a prominent business process improvement and performance management consulting firm that helps businesses become more profitable.",
+        "metaOgImage": "",
+        "keywords": null,
+        "metaRobots": null,
+        "structuredData": null,
+        "metaViewport": null,
+        "canonicalURL": null,
+        "metaImage": {
+          "url": "",
+          "alternativeText": null
+        },
+        "metaSocial": []
+      },
+      "widgets": [
+        {
+          "widget_type": "HomeBanner",
+          "data": {
+            "item": [
+              {
+                "title": "SAP Retail",
+                "banner_text": "Leading Brands Strategically",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "video",
+                  "video_url": "https://dev.uiwac.webc.in/HLS/applexus/video.m3u8",
+                  "poster": "/images/sap-retail-poster.png",
+                  "alt": "home-banner-video"
+                }
+              },
+              {
+                "title": "Data & Analytics",
+                "banner_text": "Innovative Tech Solutions",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "image",
+                  "desktop": "/images/home-2.png",
+                  "mobile": "/images/home-2.png",
+                  "alt": "home-banner-image"
+                }
+              },
+              {
+                "title": "Nexim",
+                "banner_text": "Empowering Business Tools",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "image",
+                  "desktop": "/images/home-3.png",
+                  "mobile": "/images/home-3.png",
+                  "alt": "home-banner-image"
+                }
+              },
+              {
+                "title": "Industry",
+                "banner_text": "Tailored Sector Solutions",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "image",
+                  "desktop": "/images/home-4.png",
+                  "mobile": "/images/home-4.png",
+                  "alt": "home-banner-image"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "about-us": {
+    "data": {
+      "seo": {
+        "id": 1,
+        "metaTitle": "Swan Global - is a prominent business process",
+        "metaDescription": "Applexus is a prominent business process improvement and performance management consulting firm that helps businesses become more profitable.",
+        "metaOgImage": "",
+        "keywords": null,
+        "metaRobots": null,
+        "structuredData": null,
+        "metaViewport": null,
+        "canonicalURL": null,
+        "metaImage": {
+          "url": "",
+          "alternativeText": null
+        },
+        "metaSocial": []
+      },
+      "widgets": [
+        {
+          "widget_type": "HomeBanner",
+          "data": {
+            "item": [
+              {
+                "title": "SAP Retail",
+                "banner_text": "Leading Brands Strategically",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "video",
+                  "video_url": "https://dev.uiwac.webc.in/HLS/applexus/video.m3u8",
+                  "poster": "/images/sap-retail-poster.png",
+                  "alt": "home-banner-video"
+                }
+              },
+              {
+                "title": "Data & Analytics",
+                "banner_text": "Innovative Tech Solutions",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "image",
+                  "desktop": "/images/home-2.png",
+                  "mobile": "/images/home-2.png",
+                  "alt": "home-banner-image"
+                }
+              },
+              {
+                "title": "Nexim",
+                "banner_text": "Empowering Business Tools",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "image",
+                  "desktop": "/images/home-3.png",
+                  "mobile": "/images/home-3.png",
+                  "alt": "home-banner-image"
+                }
+              },
+              {
+                "title": "Industry",
+                "banner_text": "Tailored Sector Solutions",
+                "btn": {
+                  "btn_content": "Explore more",
+                  "btn_url": "/"
+                },
+                "banner_media": {
+                  "media_type": "image",
+                  "desktop": "/images/home-4.png",
+                  "mobile": "/images/home-4.png",
+                  "alt": "home-banner-image"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+
+}

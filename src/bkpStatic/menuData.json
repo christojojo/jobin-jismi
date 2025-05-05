@@ -1,0 +1,729 @@
+{
+  "header": {
+    "data": {
+      "logo": {
+        "deskSlimLogo": "/images/slide-logo.svg",
+        "mobileSlimLogo": "/images/mob-slide-logo.svg",
+        "deskLogo": "/images/logo.svg",
+        "mobileLogo": "/images/mob-logo.svg"
+      },
+      "btn": {
+        "btn_text": "Contact Us",
+        "btn_url": "/contact-us"
+      },
+      "menu_items": [
+        {
+          "title": "Services",
+          "link": "/services",
+          "type": "services",
+          "btn": {
+            "btn_text": "See Overview",
+            "btn_url": "/"
+          },
+          "description": "Comprehensive SAP services tailored to your business needs. From consulting to implementation, we pave the way for your digital success.",
+          "sublinks": [
+            {
+              "title": "SAP Retail & Fashion",
+              "link": "/sap-retail-fashion",
+              "childLinks": [
+                { "title": "Data & Analytics", "link": "/" },
+                { "title": "Data Quality and Cleansing Toolkit", "link": "/" },
+                { "title": "Data Governance Blueprint", "link": "/" },
+                { "title": "Data Migration Accelerator", "link": "/" },
+                { "title": "Selective Data Transition Platform", "link": "/" },
+                {
+                  "title": "Data Intelligence Cloud Starter Pack",
+                  "link": "/"
+                },
+                {
+                  "title": "IRIS- High Impact Analytics Use Cases",
+                  "link": "/"
+                },
+                { "title": "S/4 Analytics Starter Pack", "link": "/" },
+                { "title": "SAP Analytics Cloud Starter Pack", "link": "/" },
+                { "title": "Data and Analytics Starter Packs", "link": "/" }
+              ]
+            },
+            {
+              "title": "Data & Analytics",
+              "link": "/data-analytics",
+              "childLinks": [
+                {
+                  "title": "Data Science",
+                  "link": "/data-analytics/data-science"
+                },
+                {
+                  "title": "Business Intelligence",
+                  "link": "/data-analytics/business-intelligence"
+                },
+                {
+                  "title": "Advanced Analytics",
+                  "link": "/data-analytics/advanced-analytics"
+                },
+                {
+                  "title": "Data Engineering",
+                  "link": "/data-analytics/data-engineering"
+                },
+                {
+                  "title": "AI & ML Solutions",
+                  "link": "/data-analytics/ai-ml-solutions"
+                },
+                {
+                  "title": "Cloud Analytics Solutions",
+                  "link": "/data-analytics/cloud-analytics-solutions"
+                },
+                {
+                  "title": "Real-Time Data Processing",
+                  "link": "/data-analytics/real-time-data-processing"
+                },
+                {
+                  "title": "Data Lakes and Warehousing",
+                  "link": "/data-analytics/data-lakes-warehousing"
+                }
+              ]
+            },
+            {
+              "title": "Business Advisory",
+              "link": "/business-advisory",
+              "childLinks": [
+                {
+                  "title": "Strategic Consulting",
+                  "link": "/business-advisory/strategic-consulting"
+                },
+                {
+                  "title": "Operations Advisory",
+                  "link": "/business-advisory/operations-advisory"
+                },
+                {
+                  "title": "Change Management",
+                  "link": "/business-advisory/change-management"
+                },
+                {
+                  "title": "Leadership Advisory",
+                  "link": "/business-advisory/leadership-advisory"
+                },
+                {
+                  "title": "Organizational Development",
+                  "link": "/business-advisory/organizational-development"
+                },
+                {
+                  "title": "Business Process Optimization",
+                  "link": "/business-advisory/business-process-optimization"
+                },
+                {
+                  "title": "Mergers & Acquisitions",
+                  "link": "/business-advisory/mergers-acquisitions"
+                },
+                {
+                  "title": "Enterprise Performance Management",
+                  "link": "/business-advisory/enterprise-performance-management"
+                }
+              ]
+            },
+            {
+              "title": "S/4HANA Services",
+              "link": "/s4hana-services",
+              "childLinks": [
+                {
+                  "title": "Implementation",
+                  "link": "/s4hana-services/implementation"
+                },
+                { "title": "Migration", "link": "/s4hana-services/migration" },
+                {
+                  "title": "System Conversion",
+                  "link": "/s4hana-services/system-conversion"
+                },
+                {
+                  "title": "Central Finance",
+                  "link": "/s4hana-services/central-finance"
+                },
+                {
+                  "title": "S/4HANA Optimization",
+                  "link": "/s4hana-services/optimization"
+                },
+                {
+                  "title": "SAP Fiori Implementation",
+                  "link": "/s4hana-services/fiori-implementation"
+                },
+                {
+                  "title": "S/4HANA Testing Services",
+                  "link": "/s4hana-services/testing-services"
+                }
+              ]
+            },
+            {
+              "title": "Finance",
+              "link": "/finance",
+              "childLinks": [
+                {
+                  "title": "Financial Planning",
+                  "link": "/finance/financial-planning"
+                },
+                {
+                  "title": "Treasury Management",
+                  "link": "/finance/treasury-management"
+                },
+                {
+                  "title": "Financial Reporting",
+                  "link": "/finance/financial-reporting"
+                },
+                { "title": "Tax Advisory", "link": "/finance/tax-advisory" },
+                {
+                  "title": "Risk Management",
+                  "link": "/finance/risk-management"
+                },
+                {
+                  "title": "Financial Risk Analysis",
+                  "link": "/finance/financial-risk-analysis"
+                },
+                {
+                  "title": "Budgeting & Forecasting",
+                  "link": "/finance/budgeting-forecasting"
+                }
+              ]
+            },
+            {
+              "title": "Digital Transformation Toolkit",
+              "link": "/digital-transformation-toolkit",
+              "childLinks": [
+                {
+                  "title": "Cloud Services",
+                  "link": "/digital-transformation-toolkit/cloud-services"
+                },
+                {
+                  "title": "Automation",
+                  "link": "/digital-transformation-toolkit/automation"
+                },
+                {
+                  "title": "Digital Innovation Labs",
+                  "link": "/digital-transformation-toolkit/digital-innovation-labs"
+                },
+                {
+                  "title": "AI & Machine Learning",
+                  "link": "/digital-transformation-toolkit/ai-machine-learning"
+                },
+                {
+                  "title": "Data-Driven Digital Transformation",
+                  "link": "/digital-transformation-toolkit/data-driven-digital-transformation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Products",
+          "link": "/Products",
+          "type": "Products",
+          "btn": {
+            "btn_text": "See Overview",
+            "btn_url": "/"
+          },
+          "description": "Comprehensive SAP services tailored to your business needs. From consulting to implementation, we pave the way for your digital success.",
+          "sublinks": [
+            {
+              "title": "InSITE",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/insite-image.jpg",
+                  "title": "InSITE",
+                  "description": "A comprehensive tool for managing site inspections and ensuring compliance with industry standards.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "nEXIM",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/nexim-image.jpg",
+                  "title": "nEXIM",
+                  "description": "Streamline internal processes and automate exception handling with our SAP-based invoice management solution, powered by AI.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "Iris",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/iris-image.jpg",
+                  "title": "Iris",
+                  "description": "Empower your business with data-driven insights and advanced analytics with Iris.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "CeleRITE",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/celerite-image.jpg",
+                  "title": "CeleRITE",
+                  "description": "Enhance your supply chain with CeleRITE, our powerful retail optimization tool.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "Simpleretail",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/simpleretail-image.jpg",
+                  "title": "Simpleretail",
+                  "description": "Simplify retail management with our advanced, AI-powered retail platform.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Our Industry",
+          "link": "/OurIndustry",
+          "type": "OurIndustry",
+          "btn": {
+            "btn_text": "See Overview",
+            "btn_url": "/"
+          },
+          "description": "Comprehensive SAP services tailored to your business needs. From consulting to implementation, we pave the way for your digital success.",
+          "sublinks": [
+            {
+              "title": "Retail",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/retail-image.jpg",
+                  "title": "Retail",
+                  "description": "Explore innovative solutions tailored for the retail industry to enhance customer experiences and streamline operations.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "Fashion",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/fashion-image.jpg",
+                  "title": "Fashion",
+                  "description": "Discover fashion industry solutions that leverage technology to drive trends and efficiency.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "Manufacturing",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/manufacturing-image.jpg",
+                  "title": "Manufacturing",
+                  "description": "Transform your manufacturing processes with smart solutions that optimize productivity and quality.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            },
+            {
+              "title": "SAP Consumer Products",
+              "link": "./",
+              "childLinks": [
+                {
+                  "image": "/consumer-products-image.jpg",
+                  "title": "SAP Consumer Products",
+                  "description": "Utilize SAP solutions to enhance consumer product management and drive better business outcomes.",
+                  "link": "/",
+                  "link_title": "Know more"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Insights",
+          "link": "/Insights",
+          "type": "Insights",
+          "types": [
+            {
+              "type": "Blogs",
+              "link": "/insights/blogs"
+            },
+            {
+              "type": "Videos",
+              "link": "/insights/videos"
+            },
+            {
+              "type": "Events",
+              "link": "/insights/events"
+            },
+            {
+              "type": "White Paper",
+              "link": "/insights/white-paper"
+            }
+          ],
+          "more_link": {
+            "title": "Explore insights",
+            "link": "/subscribe"
+          },
+          "featuredSection": {
+            "title": "Featured Content",
+            "featuredBlog": {
+              "title": "The Future of Technology",
+              "date": "2024-10-09",
+              "description": "An in-depth look at the emerging technologies that are shaping our future."
+            },
+            "blogs": [
+              {
+                "title": "Understanding AI in Everyday Life",
+                "date": "2024-09-25",
+                "description": "Exploring how artificial intelligence is transforming daily activities and industries."
+              },
+              {
+                "title": "Sustainable Practices in Business",
+                "date": "2024-09-15",
+                "description": "A guide to implementing sustainable practices in your business operations."
+              },
+              {
+                "title": "The Rise of Remote Work",
+                "date": "2024-09-05",
+                "description": "Analyzing the trends and implications of the growing remote workforce."
+              }
+            ]
+          }
+        },
+        {
+          "title": "Corporates",
+          "link": "/Corporates",
+          "type": "Corporates",
+          "types": [
+            {
+              "type": "About Us",
+              "link": "/about-us"
+            },
+            {
+              "type": "Leadership",
+              "link": "/leadership"
+            },
+            {
+              "type": "Careers",
+              "link": "/careers"
+            },
+            {
+              "type": "Contact Us",
+              "link": "/contact-us"
+            }
+          ],
+          "featured_data": {
+            "title": "About us",
+            "description": "Since 2005, customer-centric innovation has driven our technology solutions.With a global presence in North America, the United Kingdom, and India. We are a global technology leader offering business consulting and SAP services to transform customers through digital innovation.",
+            "image": "/images/future-of-technology.jpg",
+            "more_link": {
+              "title": "Know more",
+              "link": "/"
+            }
+          }
+        }
+      ],
+      "menu_items_mobile" : [
+        {
+          "title": "Services",
+          "link": "/services",
+          "sublinks": [
+            {
+              "title": "SAP Retail & Fashion",
+              "link": "/sap-retail-fashion",
+              "childLinks": [
+                { "title": "Data & Analytics", "link": "/" },
+                { "title": "Data Quality and Cleansing Toolkit", "link": "/" },
+                { "title": "Data Governance Blueprint", "link": "/" },
+                { "title": "Data Migration Accelerator", "link": "/" },
+                { "title": "Selective Data Transition Platform", "link": "/" },
+                {
+                  "title": "Data Intelligence Cloud Starter Pack",
+                  "link": "/"
+                },
+                {
+                  "title": "IRIS- High Impact Analytics Use Cases",
+                  "link": "/"
+                },
+                { "title": "S/4 Analytics Starter Pack", "link": "/" },
+                { "title": "SAP Analytics Cloud Starter Pack", "link": "/" },
+                { "title": "Data and Analytics Starter Packs", "link": "/" }
+              ]
+            },
+            {
+              "title": "Data & Analytics",
+              "link": "/data-analytics",
+              "childLinks": [
+                {
+                  "title": "Data Science",
+                  "link": "/data-analytics/data-science"
+                },
+                {
+                  "title": "Business Intelligence",
+                  "link": "/data-analytics/business-intelligence"
+                },
+                {
+                  "title": "Advanced Analytics",
+                  "link": "/data-analytics/advanced-analytics"
+                },
+                {
+                  "title": "Data Engineering",
+                  "link": "/data-analytics/data-engineering"
+                },
+                {
+                  "title": "AI & ML Solutions",
+                  "link": "/data-analytics/ai-ml-solutions"
+                },
+                {
+                  "title": "Cloud Analytics Solutions",
+                  "link": "/data-analytics/cloud-analytics-solutions"
+                },
+                {
+                  "title": "Real-Time Data Processing",
+                  "link": "/data-analytics/real-time-data-processing"
+                },
+                {
+                  "title": "Data Lakes and Warehousing",
+                  "link": "/data-analytics/data-lakes-warehousing"
+                }
+              ]
+            },
+            {
+              "title": "Business Advisory",
+              "link": "/business-advisory",
+              "childLinks": [
+                {
+                  "title": "Strategic Consulting",
+                  "link": "/business-advisory/strategic-consulting"
+                },
+                {
+                  "title": "Operations Advisory",
+                  "link": "/business-advisory/operations-advisory"
+                },
+                {
+                  "title": "Change Management",
+                  "link": "/business-advisory/change-management"
+                },
+                {
+                  "title": "Leadership Advisory",
+                  "link": "/business-advisory/leadership-advisory"
+                },
+                {
+                  "title": "Organizational Development",
+                  "link": "/business-advisory/organizational-development"
+                },
+                {
+                  "title": "Business Process Optimization",
+                  "link": "/business-advisory/business-process-optimization"
+                },
+                {
+                  "title": "Mergers & Acquisitions",
+                  "link": "/business-advisory/mergers-acquisitions"
+                },
+                {
+                  "title": "Enterprise Performance Management",
+                  "link": "/business-advisory/enterprise-performance-management"
+                }
+              ]
+            },
+            {
+              "title": "S/4HANA Services",
+              "link": "/s4hana-services",
+              "childLinks": [
+                {
+                  "title": "Implementation",
+                  "link": "/s4hana-services/implementation"
+                },
+                { "title": "Migration", "link": "/s4hana-services/migration" },
+                {
+                  "title": "System Conversion",
+                  "link": "/s4hana-services/system-conversion"
+                },
+                {
+                  "title": "Central Finance",
+                  "link": "/s4hana-services/central-finance"
+                },
+                {
+                  "title": "S/4HANA Optimization",
+                  "link": "/s4hana-services/optimization"
+                },
+                {
+                  "title": "SAP Fiori Implementation",
+                  "link": "/s4hana-services/fiori-implementation"
+                },
+                {
+                  "title": "S/4HANA Testing Services",
+                  "link": "/s4hana-services/testing-services"
+                }
+              ]
+            },
+            {
+              "title": "Finance",
+              "link": "/finance",
+              "childLinks": [
+                {
+                  "title": "Financial Planning",
+                  "link": "/finance/financial-planning"
+                },
+                {
+                  "title": "Treasury Management",
+                  "link": "/finance/treasury-management"
+                },
+                {
+                  "title": "Financial Reporting",
+                  "link": "/finance/financial-reporting"
+                },
+                { "title": "Tax Advisory", "link": "/finance/tax-advisory" },
+                {
+                  "title": "Risk Management",
+                  "link": "/finance/risk-management"
+                },
+                {
+                  "title": "Financial Risk Analysis",
+                  "link": "/finance/financial-risk-analysis"
+                },
+                {
+                  "title": "Budgeting & Forecasting",
+                  "link": "/finance/budgeting-forecasting"
+                }
+              ]
+            },
+            {
+              "title": "Digital Transformation Toolkit",
+              "link": "/digital-transformation-toolkit",
+              "childLinks": [
+                {
+                  "title": "Cloud Services",
+                  "link": "/digital-transformation-toolkit/cloud-services"
+                },
+                {
+                  "title": "Automation",
+                  "link": "/digital-transformation-toolkit/automation"
+                },
+                {
+                  "title": "Digital Innovation Labs",
+                  "link": "/digital-transformation-toolkit/digital-innovation-labs"
+                },
+                {
+                  "title": "AI & Machine Learning",
+                  "link": "/digital-transformation-toolkit/ai-machine-learning"
+                },
+                {
+                  "title": "Data-Driven Digital Transformation",
+                  "link": "/digital-transformation-toolkit/data-driven-digital-transformation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Products",
+          "link": "/Products",
+          "sublinks": [
+            {
+              "title": "InSITE",
+              "link": "./"
+            },
+            {
+              "title": "nEXIM",
+              "link": "./"
+            },
+            {
+              "title": "Iris",
+              "link": "./"
+            },
+            {
+              "title": "CeleRITE",
+              "link": "./"
+            },
+            {
+              "title": "Simpleretail",
+              "link": "./"
+            }
+          ]
+        },
+        {
+          "title": "Our Industry",
+          "link": "/OurIndustry",
+          "description": "Comprehensive SAP services tailored to your business needs. From consulting to implementation, we pave the way for your digital success.",
+          "sublinks": [
+            {
+              "title": "Retail",
+              "link": "./"
+            },
+            {
+              "title": "Fashion",
+              "link": "./"
+            },
+            {
+              "title": "Manufacturing",
+              "link": "./"
+            },
+            {
+              "title": "SAP Consumer Products",
+              "link": "./"
+            }
+          ]
+        },
+        {
+          "title": "Insights",
+          "link": "/Insights",
+          "sublinks": [
+            {
+              "title": "Blogs",
+              "link": "/insights/blogs"
+            },
+            {
+              "title": "Videos",
+              "link": "/insights/videos"
+            },
+            {
+              "title": "Events",
+              "link": "/insights/events"
+            },
+            {
+              "title": "White Paper",
+              "link": "/insights/white-paper"
+            }
+          ]
+        },
+        {
+          "title": "Corporates",
+          "link": "/Corporates",
+          "type": "Corporates",
+          "sublinks": [
+            {
+              "title": "About Us",
+              "link": "/about-us"
+            },
+            {
+              "title": "Leadership",
+              "link": "/leadership"
+            },
+            {
+              "title": "Careers",
+              "link": "/careers"
+            },
+            {
+              "title": "Contact Us",
+              "link": "/contact-us"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
