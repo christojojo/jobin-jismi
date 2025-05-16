@@ -10,8 +10,8 @@
 :root {
   --primary: #9BCA3B;
   --primary-hover: #2a4448;
-  --secondary-color: #0B3231;
-  --secondary-color-hover: #0B3231;
+  --secondary: #0B3231;
+  --secondary-hover: #0B3231;
   
   --white: #ffffff;
   --black: #000000;      

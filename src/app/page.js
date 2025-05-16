@@ -1,8 +1,7 @@
 import { HOME_PAGE } from "@/constants/apiRoutes";
-import HomeBanner from "@/widgets/HomeBanner";
 import { nextFetch } from "@/utilities/nextFetch";
 import { fetchPageMetadata } from "@/utilities/seoUtils";
-import localFont from "next/font/local";
+import HomeBanner from "@/widgets/HomeBanner";
 
 const WIDGETS = {
   HomeBanner, // Add other widget components here as needed
@@ -34,9 +33,6 @@ const HomePage = async () => {
   if (!data?.data?.widgets?.length) {
     return <div>No widgets available</div>;
   }
-
-console.log("data",data);
-
 
   return (
     <main className="isHome">

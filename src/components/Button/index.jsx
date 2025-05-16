@@ -73,7 +73,7 @@ const Button = ({
   };
 
   const baseClass =
-  "border text-base leading-[1.17] transition-all duration-300 ease-in-out inline-flex justify-center items-center text-center gap-1 whitespace-nowrap";
+  "border text-base leading-5 transition-all duration-300 ease-in-out inline-flex justify-center items-center text-center gap-1 whitespace-nowrap";
 
 
 const btnClass = `${variants[variant]} ${sizes[size]} ${baseClass}`

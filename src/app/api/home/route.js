@@ -2,7 +2,7 @@ const data = {
     "data": {
       "seo": {
         "id": 1,
-        "metaTitle": "Swan Global - is a prominent business process",
+        "metaTitle": "Jobin & Jismi - NetSuite Customization Services",
         "metaDescription": "Applexus is a prominent business process improvement and performance management consulting firm that helps businesses become more profitable.",
         "metaOgImage": "",
         "keywords": null,
@@ -20,13 +20,13 @@ const data = {
         {
           "widget_type": "HomeBanner",
           "data": {
-            "title": "Uniting Talent With Opportunity",
-            "description": "Discover top talent, ideal positions, and innovative strategies to thrive.",
+            "title": "Transforming businesses with NetSuite expertise.",
+            "description": "Transforming businesses with NetSuite expertise.",
             "item": {
               "banner_media": {
                 "media_type": "video",
                 "video_url": "/images/home-page/banner-video.mp4",
-                "poster": "/images/home-page/banner-image.jpg",
+                "poster": "/images/homebanner/banner_poster.webp",
                 "alt": "home-banner-video"
               }
             }
