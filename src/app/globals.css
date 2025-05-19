@@ -8,14 +8,16 @@
 } */
 
 :root {
-  --primary: #9BCA3B;
+  --primary: #9bca3b;
   --primary-hover: #2a4448;
-  --secondary: #0B3231;
-  --secondary-hover: #0B3231;
-  
-  --white: #ffffff;
-  --black: #000000;      
+  --secondary: #0b3231;
+  --secondary-hover: #0b3231;
 
+  --white: #ffffff;
+  --black: #000000;
+  --border-outline: #ffffff0f;
+  --primary-100: #859998;
+  --primary-btn-text: #0b3231;
 
   --spacing-0: 0rem;
   --spacing-1: 0.0625rem;
@@ -65,6 +67,7 @@
   --text-12: 0.75rem;
   --text-10: 0.625rem;
 
+
   --shadow-primary: 0px 2px 0px 0px #002d18;
   --shadow-card: 0px 4px 4px 0px #00000540;
   --shadow-lg: inset 0px 0px 0px 3px #ffdd00;
@@ -84,8 +87,7 @@
   --shadow-headerbottom-border: 0px -1px 0px 0px #b1b4b6 inset;
   --dropdown_menu: -5px 0px 20px 0px #00000026;
 
-  --shadow-toggle-switch: 0px 1px 1px 0px #0000002b,
-    0px 0px 1px 0px #00000012;
+  --shadow-toggle-switch: 0px 1px 1px 0px #0000002b, 0px 0px 1px 0px #00000012;
   --select_menu: 0px 12px 10px 0px #0000001c;
   --disease: 0px 1px 4px 0px #0c0c0d0d, 0px 1px 4px 0px #0c0c0d1a;
   --row: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0,
@@ -115,4 +117,26 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   font-family: "DM Sans", sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: var(--font-semibold);
+  width: fit-content;
+  padding: 14px 28px;
+  transition: all .3s ease-in-out;
+}
+.btn-outline {
+  border: 1px solid #ffffff80;
+  border-radius: 8px;
+  &:hover {
+    background-color: var(--primary);
+    color: var(--primary-btn-text);
+    border-color: var(--primary);
+  }
 }

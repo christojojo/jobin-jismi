@@ -41,16 +41,29 @@ const data = {
       },
     },
   ],
-  search_icon: {
-    url: "/images/search.svg",
-    alternativeText: "Search",
-  },
-  button: {
-    title: "Contact Us",
-    url: "/contact-us",
-  },
+  social_media_links: [
+    {
+      icon: "/images/footer/social-media-icons/jj-insta.svg",
+      link: "https://www.instagram.com/jobinandjismi/",
+    },
+    {
+      icon: "/images/footer/social-media-icons/jj-fb.svg",
+      link: "https://www.facebook.com/company/jobinandjismi",
+    },
+    {
+      icon: "/images/footer/social-media-icons/jj-linkidin.svg",
+      link: "https://www.linkidin.com/jobinandjismi/",
+    },
+    {
+      icon: "/images/footer/social-media-icons/jj-twitter.svg",
+      link: "https://twitter.com/jobinandjismi",
+    },
+     {
+      icon: "/images/footer/social-media-icons/jj-youtube.svg",
+      link: "https://youtube.com/jobinandjismi",
+    },
+  ]
 };
-
 
 export async function GET() {
   return new Response(JSON.stringify(data), {
