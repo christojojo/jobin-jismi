@@ -1,10 +1,14 @@
 import { HOME_PAGE } from "@/constants/apiRoutes";
 import { nextFetch } from "@/utilities/nextFetch";
 import { fetchPageMetadata } from "@/utilities/seoUtils";
+import HomeAbout from "@/widgets/HomeAbout";
 import HomeBanner from "@/widgets/HomeBanner";
+import NetsuiteServices from "@/widgets/NetsuiteServices";
 
 const WIDGETS = {
   HomeBanner, // Add other widget components here as needed
+  HomeAbout,
+  NetsuiteServices
 };
 
 const DefaultComponent = () => <div>Component not found</div>;
@@ -41,6 +45,7 @@ const HomePage = async () => {
         return (
           <div key={widget.id || index}>
             <WidgetComponent data={widget.data} />
+        
           </div>
         );
       })}

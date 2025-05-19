@@ -134,6 +134,7 @@ body {
 .btn-outline {
   border: 1px solid #ffffff80;
   border-radius: 8px;
+  background-color: transparent;
   &:hover {
     background-color: var(--primary);
     color: var(--primary-btn-text);

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Footer = ({ data }) => {
   return (
     <footer className="bg-secondary text-white pt-[120px] mt-[500px]">
-      <div className="max-w-[1296px] mx-auto px-4">
+      <div className="max-w-[1296px] mx-auto px-16">
         {/* Top Section */}
         <div className="flex justify-between items-center pb-[74px] border-b border-outline">
           <h6 className="max-w-[567px] text-[36px] md:text-[56px] font-medium leading-[1.2]">
@@ -25,7 +25,7 @@ const Footer = ({ data }) => {
           </div>
         </div>
         {/* Footer Columns */}
-        <div className="flex items-start justify-between gap-8 pt-[60px] py-[63px]">
+        <div className="flex items-start justify-between gap-8 pt-[60px] py-[63px] flex-wrap">
           {Object.entries(data.footer_items[0]).map(([section, items]) => (
             <div key={section}>
               <h6 className="text-18 font-medium leading-[1.3] pb-[32px]">
@@ -74,7 +74,7 @@ const Footer = ({ data }) => {
                         alt={`social-icon-${index}`}
                         width={24}
                         height={24}
-                         className="transition-transform duration-200 hover:scale-110 hover:opacity-80"
+                        className="transition-transform duration-200 hover:scale-110 hover:opacity-80"
                       />
                     </Link>
                   </li>
@@ -82,8 +82,17 @@ const Footer = ({ data }) => {
               })}
             </ul>
             <p className="text-primary100 text-16 font-normal leading-[22px] tracking-[-2%]">
-              Copyright © 2025 Jobin & Jismi | All rights reserved | Privacy
-              Policy | Terms and Condition
+              Copyright © 2025 Jobin & Jismi | All rights reserved |
+              <Link href="/privacy-policy" className="hover:text-primary">
+                Privacy Policy
+              </Link>
+              |
+              <Link
+                href="/terms-and-conditions"
+                className="hover:text-primary transition-all duration-300 ease-in-out"
+              >
+                Terms and Condition
+              </Link>
             </p>
             <div className="text-primary100 text-16 font-normal leading-[22px] tracking-[-2%]">
               Designed by WAC

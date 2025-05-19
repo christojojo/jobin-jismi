@@ -36,17 +36,23 @@ const data = {
                 poster: "/images/homebanner/banner_poster.webp",
                 alt: "home-banner-video-1",
               },
-             brand_images: [
+              brand_images: [
                 {
                   src: "/images/homebanner/brandLogos/oracle-netsuite.svg",
                   alt: "Brand 1",
                 },
-                { src: "/images/homebanner/brandLogos/celigo.svg", alt: "Brand 2" },
+                {
+                  src: "/images/homebanner/brandLogos/celigo.svg",
+                  alt: "Brand 2",
+                },
                 {
                   src: "/images/homebanner/brandLogos/suitecommerce.svg",
                   alt: "Brand 3",
                 },
-                { src: "/images/homebanner/brandLogos/cleartax.svg", alt: "Brand 4" },
+                {
+                  src: "/images/homebanner/brandLogos/cleartax.svg",
+                  alt: "Brand 4",
+                },
               ],
             },
             {
@@ -67,12 +73,18 @@ const data = {
                   src: "/images/homebanner/brandLogos/oracle-netsuite.svg",
                   alt: "Brand 1",
                 },
-                { src: "/images/homebanner/brandLogos/celigo.svg", alt: "Brand 2" },
+                {
+                  src: "/images/homebanner/brandLogos/celigo.svg",
+                  alt: "Brand 2",
+                },
                 {
                   src: "/images/homebanner/brandLogos/suitecommerce.svg",
                   alt: "Brand 3",
                 },
-                { src: "/images/homebanner/brandLogos/cleartax.svg", alt: "Brand 4" },
+                {
+                  src: "/images/homebanner/brandLogos/cleartax.svg",
+                  alt: "Brand 4",
+                },
               ],
             },
             {
@@ -94,15 +106,116 @@ const data = {
                   src: "/images/homebanner/brandLogos/oracle-netsuite.svg",
                   alt: "Brand 1",
                 },
-                { src: "/images/homebanner/brandLogos/celigo.svg", alt: "Brand 2" },
+                {
+                  src: "/images/homebanner/brandLogos/celigo.svg",
+                  alt: "Brand 2",
+                },
                 {
                   src: "/images/homebanner/brandLogos/suitecommerce.svg",
                   alt: "Brand 3",
                 },
-                { src: "/images/homebanner/brandLogos/cleartax.svg", alt: "Brand 4" },
+                {
+                  src: "/images/homebanner/brandLogos/cleartax.svg",
+                  alt: "Brand 4",
+                },
               ],
             },
           ],
+        },
+      },
+
+      {
+        widget_type: "HomeAbout",
+        data: {
+          title: "We simplify your business",
+          subtitle: "About Us",
+          description:
+            "We provide future-ready solutions aligning with your business goals. Oracle NetSuite, the #1 cloud ERP solution; we implement, customize, and integrate seamlessly.",
+          button: {
+            label: "Know More About Us",
+            url: "/about",
+          },
+          stats: [
+            {
+              value: "12+",
+              label: "Years of Experience",
+            },
+            {
+              value: "250+",
+              label: "Experts of Team",
+            },
+            {
+              value: "96%",
+              label: "Customer Satisfaction",
+            },
+            {
+              value: "36+",
+              label: "Countries Served",
+            },
+          ],
+          image: "/images/about-us/aboutus-bg-img.png",
+        },
+      },
+      {
+        widget_type: "NetsuiteServices",
+        data: {
+          sectionTitle: "Customized end-to-end NetSuite solutions",
+          subtitle: "NetSuite Services",
+
+          services: [
+            {
+              title: "NetSuite Implementation",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eu tincidunt id congue tincidunt ullamcorper ut felis eget amet. At convallis non sagittis eget et.",
+              linkText: "Learn More",
+              Link_url: "/netSuite-implementation",
+              service_icon: "/images/services/implementation.svg",
+            },
+            {
+              title: "NetSuite Consultation",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eu tincidunt id congue tincidunt ullamcorper ut felis eget amet. At convallis non sagittis eget et.",
+              linkText: "Learn More",
+              Link_url: "/netSuite-consultation",
+              service_icon: "/images/services/consultation.svg",
+            },
+            {
+              title: "NetSuite Customization",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eu tincidunt id congue tincidunt ullamcorper ut felis eget amet. At convallis non sagittis eget et.",
+              linkText: "Learn More",
+              Link_url: "/netSuite-customization",
+              service_icon: "/images/services/customization.svg",
+            },
+            {
+              title: "NetSuite Integration",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eu tincidunt id congue tincidunt ullamcorper ut felis eget amet. At convallis non sagittis eget et.",
+              linkText: "Learn More",
+              Link_url: "/netSuite-integration",
+              service_icon: "/images/services/inegration.svg",
+            },
+            {
+              title: "NetSuite Optimisation",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eu tincidunt id congue tincidunt ullamcorper ut felis eget amet. At convallis non sagittis eget et.",
+              linkText: "Learn More",
+              Link_url: "/netSuite-optimization",
+              service_icon: "/images/services/optimization.svg",
+            },
+            {
+              title: "Suite commerce",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eu tincidunt id congue tincidunt ullamcorper ut felis eget amet. At convallis non sagittis eget et.",
+              linkText: "Learn More",
+              Link_url: "/suit-comerce",
+              service_icon: "/images/services/suit-commerce.svg",
+            },
+          ],
+          cta: {
+            text: "Explore all Netsuite Services",
+            link: "#",
+          },
         },
       },
 
@@ -123,48 +236,7 @@ const data = {
           },
         },
       },
-      {
-        widget_type: "HomeAbout",
-        data: {
-          title: "Solutions Built on Results",
-          description:
-            "Qatar's premier and fastest-growing staffing, outsourcing & talent acquisition solutions company. ",
-          button: {
-            label: "About Us",
-            link: "/about-us",
-          },
-          results: [
-            {
-              value: "15000 +",
-              description:
-                "Resources Deployed Till Date: Expanded and Extended Successfully",
-            },
-            {
-              value: "7500 +",
-              description:
-                "Blue Collar Resources Managed, Coordinated, and Deployed Strategically",
-            },
-            {
-              value: "100000 +",
-              description:
-                "Comprehensive white collar resources database has been established.",
-            },
-            {
-              value: "250 +",
-              description: "Clients and Partners expanded and extended",
-            },
-            {
-              value: "500 +",
-              description: "Seat Fleet Size Expansion and Extension",
-            },
-            {
-              value: "500 +",
-              description:
-                "Guests can find a safe in the room to secure their valuables.",
-            },
-          ],
-        },
-      },
+
       {
         widget_type: "HomeOurService",
         data: {

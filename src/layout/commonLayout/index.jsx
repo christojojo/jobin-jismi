@@ -10,7 +10,7 @@ const CommonLayout = async ({ children }) => {
     
   return (
     <>
-      <MainHeader data={headerData} />
+      <MainHeader data={headerData}/>
       {children}
       <Footer data={footerData} />
     </>

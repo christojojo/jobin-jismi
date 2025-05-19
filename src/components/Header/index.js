@@ -1,8 +1,6 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
 import Button from "../Button";
 
 const Header = ({data}) => {  
@@ -22,16 +20,17 @@ const Header = ({data}) => {
                   fill
                   className="object-contain"
                   priority
+                  loading="eager"
                 />
               </figure>
             </Link>
 
             <ul className="flex items-center space-x-[36px] ml-[50px]">
               {data?.menu_items?.map((item, index) => {
-                return (
+                return item?.url && (
                   <li key={index}>
                     <Link
-                      href={item.url}
+                      href={item?.url}
                       target="_blank"
                       className="py-8 text-16 font-medium text-white leading-none tracking-normal transition-all duration-200 ease-in-out hover:text-primary"
                     >
@@ -51,11 +50,13 @@ const Header = ({data}) => {
               height={24}
               alt={data?.search_icon?.alternativeText}
             />
-            <Link href={data?.button?.url || "/contact-us"}>
-              <Button size="lg" variant="primary">
+            {
+              data?.button?.url && (
+              <Button href={data?.button?.url} size="lg" variant="primary">
                 {data?.button?.title || "Contact Us"}
               </Button>
-            </Link>
+              )
+            }
           </div>
         </div>
       </div>

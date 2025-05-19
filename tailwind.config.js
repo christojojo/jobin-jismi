@@ -122,9 +122,7 @@ const screens = {
   sm: "576px",
   md: "768px",
   lg: "992px",
-  xl: "1200px",
-  xxl: "1420px",
-  xxxl: "1600px",
+  xl: "1268px",
   laptop: { min: "1200px", max: "1599px" },
 };
 
@@ -141,11 +139,16 @@ export default {
       height: {
         dynamic: "var(--dynamic-val)",
       },
-      colors,
-      // colors: {
-      //   background: "var(--background)",
-      //   foreground: "var(--foreground)",
-      // },
+      keyframes: {
+        fill: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
+      },
+      animation: {
+        fill: 'fill linear forwards',
+      },
+      colors,     
     },
   },
   plugins: [],
