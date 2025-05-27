@@ -135,7 +135,7 @@ export default {
       fontSize,
       borderWidth,
       boxShadow,
-      spacing,      
+      // spacing,      
       height: {
         dynamic: "var(--dynamic-val)",
       },

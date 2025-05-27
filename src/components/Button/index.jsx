@@ -8,25 +8,25 @@ const Button = ({
   size = "lg",
   ...rest
 }) => {
-
   const variants = {
-    primary: "bg-primary border-primary rounded-[8px] text-black hover:bg-secondaryHover hover:text-white hover:border-white",
-    outline: "border border-[#FFFFFF80] bg-transparent rounded-[8px] text-white hover:bg-primary hover:text-black",
+    primary:
+      "bg-primary border-primary rounded-[8px] text-black hover:bg-secondaryHover hover:text-white hover:border-white",
+    outline:
+      "border border-[#FFFFFF80] bg-transparent rounded-lg text-white hover:bg-primary hover:text-black",
   };
 
   const sizes = {
     // sm: "px-5 xxl:px-[28px] py-3 xxl:py-14 font-semibold rounded-md",
     // md: "px-5 xxl:px-[28px] py-3 xxl:py-14 font-semibold rounded-md",
-    lg: "py-14 px-[28px] font-semibold rounded-md leading-5",
+    lg: "py-3.5 px-7 font-semibold rounded-md leading-5",
   };
 
   const baseClass =
-  "border text-base leading-5 transition-all duration-300 ease-in-out inline-flex justify-center items-center text-center gap-1 whitespace-nowrap";
+    "border text-base leading-5 transition-all duration-300 ease-in-out inline-flex justify-center items-center text-center gap-1 whitespace-nowrap";
 
+  const btnClass = `${variants[variant]} ${sizes[size]} ${baseClass}`;
 
-const btnClass = `${variants[variant]} ${sizes[size]} ${baseClass}`
-
-const Tag = rest?.href ? Link : "button"
+  const Tag = rest?.href ? Link : "button";
 
   return (
     <Tag className={`${classNames} ${size} ${btnClass}`} {...rest}>

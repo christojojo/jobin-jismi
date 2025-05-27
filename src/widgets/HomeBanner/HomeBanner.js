@@ -69,25 +69,25 @@ const HomeBanner = ({ data }) => {
         <div className="embla__container h-full">
           {data.items.map((item, index) => (
             <div className="embla__slide h-full" key={index}>
-              <div className="relative w-full h-full flex items-end px-4 pb-[90px] text-white">
+              <div className="relative w-full h-full flex items-end px-1 pb-[5.625rem] text-white">
                 <div className="container mx-auto relative">
-                  <h2 className="text-[70px] font-medium leading-[80px] max-w-4xl mb-[48px]">
-                    {item.title}
+                  <h2 className="text-[4.375rem] font-medium leading-[80px] max-w-4xl mb-12">
+                    {item?.title}
                   </h2>
-                  {item.button && (
+                  {item?.button && (
                     <Link href={item.button.link} className="btn btn-outline">
                       {item.button.text}
                     </Link>
                   )}
-                  {item.brand_images && (
-                    <ul className="flex mt-[150px] max-w-[830px]">
-                      {item.brand_images.map((brand, idx) => (
+                  {item?.brand_images && (
+                    <ul className="flex mt-[9.375rem] max-w-[51.875rem]">
+                      {item?.brand_images.map((brand, index) => (
                         <li
-                          key={idx}
-                          className="w-full pr-[55px] mr-[55px] border-r border-[#ffffff42] last:border-r-0 last:mr-0"
+                          key={index}
+                          className="w-full pr-[3.4375rem] mr-[3.4375rem] border-r border-[#ffffff42] last:border-r-0 last:mr-0"
                         >
-                          <figure className="relative pb-[28.1%] max-w-[133px]">
-                            <Image src={null} alt={brand.alt} fill />
+                          <figure className="relative pb-[28.1%] max-w-[8.3125rem]">
+                            <Image src={brand?.src} alt={brand?.alt} fill />
                           </figure>
                         </li>
                       ))}
@@ -100,11 +100,12 @@ const HomeBanner = ({ data }) => {
         </div>
       </div>
       {/* Progress Bar Navigation */}
-      <div className="absolute bottom-[82px] right-[302px] z-20 flex gap-x-12 w-auto">
+      <div className="relative w-full max-w-[1300px] mx-auto h-[1px]">
+      <div className="absolute bottom-[5.125rem] right-0 z-20 flex gap-x-3 w-auto">
         {data.items.map((_, index) => (
           <div
             key={index}
-            className="relative w-[40px] h-[4px] bg-[#D9D9D930] overflow-hidden "
+            className="relative w-10 h-1 bg-[#D9D9D930] overflow-hidden "
           >
             {index === selectedIndex && (
               <div
@@ -115,7 +116,8 @@ const HomeBanner = ({ data }) => {
             )}
           </div>
         ))}
-      </div>     
+      </div>   
+      </div>  
     </section>
   );
 };

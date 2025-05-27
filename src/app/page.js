@@ -4,11 +4,15 @@ import { fetchPageMetadata } from "@/utilities/seoUtils";
 import HomeAbout from "@/widgets/HomeAbout";
 import HomeBanner from "@/widgets/HomeBanner";
 import NetsuiteServices from "@/widgets/NetsuiteServices";
+import OtherServices from "@/widgets/OtherServices";
+import WhyChooseUs from "@/widgets/WhyChooseUs";
 
 const WIDGETS = {
   HomeBanner, // Add other widget components here as needed
   HomeAbout,
-  NetsuiteServices
+  NetsuiteServices,
+  OtherServices,
+  WhyChooseUs,
 };
 
 const DefaultComponent = () => <div>Component not found</div>;

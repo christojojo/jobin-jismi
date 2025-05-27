@@ -1,6 +1,10 @@
 const data = {
   image: {
-    url: "/images/logo.png",
+    url: "/images/header/logo.svg",
+    alternativeText: "logo image",
+  },
+  dark_image: {
+    url: "/images/header/logo-dark.svg",
     alternativeText: "logo image",
   },
   menu_items: [
@@ -41,7 +45,7 @@ const data = {
     },
   ],
   search_icon: {
-    url: "/images/search.svg",
+    url: "/images/header/search.svg",
     alternativeText: "Search",
   },
   button: {

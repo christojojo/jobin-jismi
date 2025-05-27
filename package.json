@@ -10,6 +10,7 @@
     "nodemon": "nodemon ./server.js localhost 8080"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "next": "15.0.2",

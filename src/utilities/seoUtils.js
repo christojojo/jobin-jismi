@@ -4,8 +4,8 @@ export async function fetchPageMetadata(apiUrl) {
     try {
       const data = await nextFetch(`${process.env.NEXT_PUBLIC_API_URL}${apiUrl}`);
       const seo = data?.seo || {};
-      const metaTitle = seo.metaTitle || "Swan";
-      const metaDescription = seo.metaDescription || "Swan Description";
+      const metaTitle = seo.metaTitle || "Jobin Jismi";
+      const metaDescription = seo.metaDescription || "JJ Description";
         
       // Convert IS_PRODUCTION to a boolean
       const isProduction = process.env.IS_PRODUCTION === "true";

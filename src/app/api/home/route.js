@@ -154,6 +154,7 @@ const data = {
             },
           ],
           image: "/images/about-us/aboutus-bg-img.png",
+          video: "/images/about-us/about-bg-gif.mp4",
         },
       },
       {
@@ -220,20 +221,99 @@ const data = {
       },
 
       {
-        widget_type: "HomeWeWhoAre",
+        widget_type: "OtherServices",
         data: {
-          title: "Who we are",
-          image: {
-            responsive: "/images/home-page/abtBlockResponsive.jpg",
-            desktop: "/images/home-page/abtBlock.jpg",
-            alt: "our-company-image",
-          },
+          label: "Other Services",
+          title: "Solutions to accelerate your growth",
           description:
-            "People who share a common vision and purpose are the key to success. People who inspire, motivate, and support you are essential.",
-          button: {
-            label: "Discover More",
-            link: "/about-us",
-          },
+            "Lorem ipsum dolor sit amet consectetur. Nec ipsum amet habitant mauris porttitor commodo faucibus. Feugiat at aliquet arcu massa orci.",
+          services: [
+            {
+              title: "AI Services",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Blandit scelerisque viverra nulla elementum",
+              link: {
+                label: "Learn More",
+                url: "#",
+              },
+              image: "/images/homebanner/jj-p1.png",
+
+              video:
+                "https://admin.jobinandjismi.com/uploads/01_96f5803f14.mp4",
+            },
+            {
+              title: "IoT & Robotics",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Blandit scelerisque viverra nulla elementum",
+              link: {
+                label: "Learn More",
+                url: "#",
+              },
+              image: "/images/homebanner/jj-p2.png",
+
+              video:
+                "https://admin.jobinandjismi.com/uploads/04_d95fc94008.mp4",
+            },
+            {
+              title: "VR Solutions",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Blandit scelerisque viverra nulla elementum",
+              link: {
+                label: "Learn More",
+                url: "#",
+              },
+              image: "/images/homebanner/jj-p3.png",
+
+              video:
+                "https://admin.jobinandjismi.com/uploads/02_5fc3588db6.mp4",
+            },
+            {
+              title: "3D Animation",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Blandit scelerisque viverra nulla elementum",
+              link: {
+                label: "Learn More",
+                url: "#",
+              },
+              image: "/images/homebanner/jj-p4.png",
+              video:
+                "https://admin.jobinandjismi.com/uploads/03_70c4acd1e7.mp4",
+            },
+          ],
+        },
+      },
+      {
+        widget_type: "WhyChooseUs",
+        data: {
+          subtitle: "Why choose us?",
+          title: "Experience excellence with our team.",
+          features: [
+            {
+              icon: "/images/homebanner/dollar-icon.svg",
+              title: "Lorem ipsum dolor sit amet consectetur.",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Amet ultrices vivamus vel mollis arcu id.",
+            },
+            {
+              icon: "/images/homebanner/netsuite-partner.svg",
+              title: "NetSuite Partner",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Ultricies nec et id odio. Arcu consectetur lectus in duis.",
+            },
+            {
+              icon: "/images/homebanner/cube.svg",
+              title: "Industry Expertise",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Eget sit tempor leo at eros nunc tortor urna. Eget id viverra.",
+            },
+            {
+              icon: "/images/homebanner/track-record.svg",
+              title: "Proven Track Record",
+              description:
+                "Lorem ipsum dolor sit amet consectetur. Natoque lobortis sed sagittis dictumst nam malesuada risus.",
+            },
+          ],
+          bg_img: "https://www.jobinandjismi.com/images/home-page/why-chooseBg.svg",
         },
       },
 
