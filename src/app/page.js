@@ -5,6 +5,8 @@ import HomeAbout from "@/widgets/HomeAbout";
 import HomeBanner from "@/widgets/HomeBanner";
 import NetsuiteServices from "@/widgets/NetsuiteServices";
 import OtherServices from "@/widgets/OtherServices";
+import Products from "@/widgets/Products";
+import StayInTouch from "@/widgets/StayInTouch/StayInTouch";
 import WhyChooseUs from "@/widgets/WhyChooseUs";
 
 const WIDGETS = {
@@ -13,6 +15,8 @@ const WIDGETS = {
   NetsuiteServices,
   OtherServices,
   WhyChooseUs,
+  Products,
+  StayInTouch,
 };
 
 const DefaultComponent = () => <div>Component not found</div>;

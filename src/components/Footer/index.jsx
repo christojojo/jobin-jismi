@@ -6,14 +6,14 @@ import Image from "next/image";
 
 const Footer = ({ data }) => {
   return (
-    <footer className="bg-secondary text-white pt-[120px] mt-[500px]">
-      <div className="max-w-[1296px] mx-auto px-16">
+    <footer className="bg-secondary text-white pt-16 md:pt-24 lg:pt-[120px]">
+      <div className="max-w-[1296px] mx-auto px-4 md:px-8 lg:px-16">
         {/* Top Section */}
-        <div className="flex justify-between items-center pb-[74px] border-b border-outline">
-          <h6 className="max-w-[567px] text-[36px] md:text-[56px] font-medium leading-[1.2]">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center pb-12 md:pb-16 lg:pb-[74px] border-b border-outline gap-8 lg:gap-0">
+          <h6 className="max-w-full lg:max-w-[567px] text-[36px] md:text-[56px] font-medium leading-[1.2]">
             {data.heading}
           </h6>
-          <div className="flex gap-x-[32px]">
+          <div className="flex flex-col sm:flex-row gap-4 lg:gap-x-[32px] w-full sm:w-auto">
             {data.buttons?.map((item, index) => (
               <Button
                 key={index}
@@ -28,7 +28,7 @@ const Footer = ({ data }) => {
         <div className="flex items-start justify-between gap-8 pt-[60px] py-[63px] flex-wrap">
           {Object.entries(data.footer_items[0]).map(([section, items]) => (
             <div key={section}>
-              <h6 className="text-18 font-medium leading-[1.3] pb-[32px]">
+              <h6 className="text-lg lg:text-18 font-medium leading-[1.3] pb-6 lg:pb-[32px]">
                 {section}
               </h6>
               <ul className="">
@@ -36,7 +36,7 @@ const Footer = ({ data }) => {
                   ? items.map((item, idx) => (
                       <li
                         key={idx}
-                        className="text-16 font-normal leading-[155%] tracking-[-0.02em] mb-[21px] text-[#FFFFFFB2] hover:text-primary transition-colors duration-300 ease-in-out"
+                        className="text-sm lg:text-16 font-normal leading-[155%] tracking-[-0.02em] mb-4 lg:mb-[21px] text-[#FFFFFFB2] hover:text-primary transition-colors duration-300 ease-in-out"
                       >
                         <Link href={`/`}>{item}</Link>
                       </li>
@@ -44,13 +44,13 @@ const Footer = ({ data }) => {
                   : Object.entries(items).map(([label, value]) => (
                       <li
                         key={label}
-                        className="text-16 font-normal leading-[155%] tracking-[-0.02em] mb-[21px] text-[#FFFFFFB2] hover:text-primary transition-colors duration-300 ease-in-out"
+                        className="text-sm lg:text-16 font-normal leading-[155%] tracking-[-0.02em] mb-4 lg:mb-[21px] text-[#FFFFFFB2]"
                       >
                         <Link href={`/`}>
                           <span className="w-[147px] inline-block">
                             {label}
                           </span>
-                          <span className="font-semibold">: {value}</span>
+                          <span className="font-semibold hover:text-primary transition-colors duration-300 ease-in-out">: {value}</span>
                         </Link>
                       </li>
                     ))}
@@ -58,9 +58,9 @@ const Footer = ({ data }) => {
             </div>
           ))}
         </div>
-        <div className="border-t border-outline py-40">
-          <div className="flex justify-between items-center">
-            <ul className="flex items-center gap-x-[23px]">
+        <div className="border-t border-outline py-8 lg:py-[2.563rem]">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-0">
+            <ul className="flex items-center gap-x-4 lg:gap-x-[23px] order-2 lg:order-1">
               {data.social_media_links.map((item, index) => {
                 return (
                   <li key={index}>
@@ -81,7 +81,7 @@ const Footer = ({ data }) => {
                 );
               })}
             </ul>
-            <p className="text-primary100 text-16 font-normal leading-[22px] tracking-[-2%]">
+            <p className="text-primary100 text-md lg:text-16 font-normal leading-[22px] tracking-[-2%] text-center lg:text-left order-1 lg:order-2">
               Copyright © 2025 Jobin & Jismi | All rights reserved |
               <Link href="/privacy-policy" className="hover:text-primary">
                 Privacy Policy
@@ -94,9 +94,9 @@ const Footer = ({ data }) => {
                 Terms and Condition
               </Link>
             </p>
-            <div className="text-primary100 text-16 font-normal leading-[22px] tracking-[-2%]">
+            <a href="https://webandcrafts.com/" className="text-primary100 text-md lg:text-16 font-normal leading-[22px] tracking-[-2%] order-3 hover:text-primary transition-all duration-200 ease-linear">
               Designed by WAC
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -105,3 +105,4 @@ const Footer = ({ data }) => {
 };
 
 export default Footer;
+

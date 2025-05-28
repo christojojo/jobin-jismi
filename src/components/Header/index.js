@@ -14,7 +14,6 @@ const Header = ({ data }) => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-console.log(data?.dark_image?.url);
 
   return (
     <header
