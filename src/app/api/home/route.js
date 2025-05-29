@@ -358,10 +358,6 @@ const data = {
         },
       },
 
-
-
-
-
       // {
       //   widget_type: "HomeOurService",
       //   data: {
@@ -1361,7 +1357,8 @@ const data = {
         widget_type: "StayInTouch",
         data: {
           title: "Trusted NetSuite consultant",
-          description: "Contact us to know how we can redefine your strategies and unlock growth opportunities .",
+          description:
+            "Contact us to know how we can redefine your strategies and unlock growth opportunities .",
           button: {
             label: "Contact Us",
             link: "/contact",
@@ -1371,6 +1368,72 @@ const data = {
             Mobile: "/images/stay-in-touch.png",
             alt: "background image",
             color: "#F5F5F5",
+          },
+        },
+      },
+      // {
+      //   widget_type: "OurLatestInsights",
+      //   title: "Our latest insights",
+      //   button: {
+      //     label: "See All Insight",
+      //     url: "#",
+      //   },
+      //   items: [
+      //     {
+      //       type: "Blog",
+      //       title:
+      //         "How to Close Partially Received Inbound Shipments in NetSuite",
+      //       date: "12 July 2024",
+      //       image: "insight-image-1.jpg",
+      //     },
+      //     {
+      //       type: "News",
+      //       title: "NetSuite Analytics Warehouse will Transform Your Business",
+      //       date: "12 July 2024",
+      //       image: "insight-image-2.jpg",
+      //     },
+      //     {
+      //       type: "Events",
+      //       title:
+      //         "Top 3 AI–Driven NetSuite Updates for Finance and Accounting Teams",
+      //       date: "12 July 2024",
+      //       image: "insight-image-3.jpg",
+      //     },
+      //   ],
+      // },
+      {
+        widget_type: "OurLatestInsights",
+        data: {
+          // subtitle: "Our Latest Insights?",
+          title: "Our latest insights",
+          items: [
+            {
+              type: "Blog",
+              title:
+                "How to Close Partially Received Inbound Shipments in NetSuite",
+              date: "12 July 2024",
+              image: "insight-image-1.jpg",
+            },
+            {
+              type: "News",
+              title:
+                "NetSuite Analytics Warehouse will Transform Your Business",
+              date: "12 July 2024",
+              image: "insight-image-2.jpg",
+            },
+            {
+              type: "Events",
+              title:
+                "Top 3 AI–Driven NetSuite Updates for Finance and Accounting Teams",
+              date: "12 July 2024",
+              image: "insight-image-3.jpg",
+            },
+          ],
+          bg_img:
+            "https://www.jobinandjismi.com/images/home-page/why-chooseBg.svg",
+          button: {
+            label: "See All Insight",
+            url: "#",
           },
         },
       },

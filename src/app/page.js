@@ -5,18 +5,20 @@ import HomeAbout from "@/widgets/HomeAbout";
 import HomeBanner from "@/widgets/HomeBanner";
 import NetsuiteServices from "@/widgets/NetsuiteServices";
 import OtherServices from "@/widgets/OtherServices";
+import OurLatestInsights from "@/widgets/OurLatestInsights";
 import Products from "@/widgets/Products";
 import StayInTouch from "@/widgets/StayInTouch/StayInTouch";
 import WhyChooseUs from "@/widgets/WhyChooseUs";
 
 const WIDGETS = {
-  HomeBanner, // Add other widget components here as needed
-  HomeAbout,
-  NetsuiteServices,
-  OtherServices,
-  WhyChooseUs,
-  Products,
-  StayInTouch,
+  // HomeBanner, // Add other widget components here as needed
+  // HomeAbout,
+  // NetsuiteServices,
+  // OtherServices,
+  // WhyChooseUs,
+  // Products,
+  // OurLatestInsights,
+  // StayInTouch,
 };
 
 const DefaultComponent = () => <div>Component not found</div>;
