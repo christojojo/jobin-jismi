@@ -18,7 +18,7 @@ const Button = ({
   const sizes = {
     // sm: "px-5 xxl:px-[28px] py-3 xxl:py-14 font-semibold rounded-md",
     // md: "px-5 xxl:px-[28px] py-3 xxl:py-14 font-semibold rounded-md",
-    lg: "py-3.5 px-7 font-semibold rounded-md leading-5",
+    lg: "py-3.5 px-[1.524rem] font-semibold rounded-md leading-5",
   };
 
   const baseClass =

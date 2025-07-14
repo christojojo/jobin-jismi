@@ -1,12 +1,19 @@
 
-@keyframes fill {
-  from {
-    width: 0%;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-progress {
+    animation: progressGrow linear forwards;
   }
-  to {
-    width: 100%;
+
+  @keyframes progressGrow {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
   }
-}
-.animate-fill {
-  animation: fill linear forwards;
 }

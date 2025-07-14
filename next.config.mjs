@@ -13,6 +13,10 @@ const nextConfig = {
           protocol: "https",
           hostname: "localhost",
         },
+        {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com", 
+      },
         // ...(process.env.NEXT_PUBLIC_API_URL ? [{
         //   protocol: "https",
         //   hostname: process.env.NEXT_PUBLIC_API_IMAGE_URL,

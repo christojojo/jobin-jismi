@@ -31,11 +31,11 @@ const data = {
                 link: "/services",
               },
               banner_media: {
-                media_type: "video",
-                video_url: "/images/home-page/banner-video.mp4",
-                poster: "/images/homebanner/banner_poster.webp",
-                alt: "home-banner-video-1",
-              },
+                media_type: "image",
+                url: "https://raw.githubusercontent.com/christojojo/jobin-jismi/refs/heads/master/public/images/homebanner/banner_poster.webp",
+                stream_url: "",
+                alt: "home-banner-img-1",
+              },             
               brand_images: [
                 {
                   src: "/images/homebanner/brandLogos/oracle-netsuite.svg",
@@ -63,11 +63,11 @@ const data = {
                 link: "/about",
               },
               banner_media: {
-                media_type: "video",
-                video_url: "/images/home-page/banner-video-2.mp4",
-                poster: "/images/homebanner/banner_poster_2.webp",
-                alt: "home-banner-video-2",
-              },
+                media_type: "image",
+                url: "https://raw.githubusercontent.com/christojojo/jobin-jismi/refs/heads/master/public/images/homebanner/banner_poster.webp",
+                stream_url: "",
+                alt: "home-banner-img-1",
+              }, 
               brand_images: [
                 {
                   src: "/images/homebanner/brandLogos/oracle-netsuite.svg",
@@ -96,11 +96,11 @@ const data = {
                 link: "/contact",
               },
               banner_media: {
-                media_type: "video",
-                video_url: "/images/home-page/banner-video-3.mp4",
-                poster: "/images/homebanner/banner_poster_3.webp",
-                alt: "home-banner-video-3",
-              },
+                media_type: "image",
+                url: "https://raw.githubusercontent.com/christojojo/jobin-jismi/refs/heads/master/public/images/homebanner/banner_poster.webp",
+                stream_url: "",
+                alt: "home-banner-img-1",
+              }, 
               brand_images: [
                 {
                   src: "/images/homebanner/brandLogos/oracle-netsuite.svg",

@@ -122,7 +122,7 @@ const screens = {
   sm: "576px",
   md: "768px",
   lg: "992px",
-  xl: "1268px",
+  xl: "1334px",
   laptop: { min: "1200px", max: "1599px" },
 };
 

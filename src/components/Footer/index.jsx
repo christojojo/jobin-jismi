@@ -70,7 +70,7 @@ const Footer = ({ data }) => {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src={item.icon}
+                        src={item?.icon}
                         alt={`social-icon-${index}`}
                         width={24}
                         height={24}
