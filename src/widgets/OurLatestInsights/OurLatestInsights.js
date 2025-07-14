@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 const OurLatestInsights = ({ data }) => {
-  console.log(data);
   
   return (
     <section data-widget="OurLatestInsights" className="py-[8rem] bg-white">

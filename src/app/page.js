@@ -11,14 +11,14 @@ import StayInTouch from "@/widgets/StayInTouch/StayInTouch";
 import WhyChooseUs from "@/widgets/WhyChooseUs";
 
 const WIDGETS = {
-  // HomeBanner, // Add other widget components here as needed
-  // HomeAbout,
-  // NetsuiteServices,
-  // OtherServices,
-  // WhyChooseUs,
-  // Products,
-  // OurLatestInsights,
-  // StayInTouch,
+  HomeBanner, 
+  HomeAbout,
+  NetsuiteServices,
+  OtherServices,
+  WhyChooseUs,
+  Products,
+  OurLatestInsights,
+  StayInTouch,
 };
 
 const DefaultComponent = () => <div>Component not found</div>;

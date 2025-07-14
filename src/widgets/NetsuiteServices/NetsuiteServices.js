@@ -23,7 +23,7 @@ const NetsuiteServices = ({ data }) => {
               >
                 <div className="">
                   <figure className="relative mb-6 md:mb-8">
-                    <Image src={item?.service_icon} width={80} height={80} className="w-16 h-16 md:w-20 md:h-20" />
+                    <Image src={item?.service_icon} width={80} height={80} className="w-16 h-16 md:w-20 md:h-20" alt="netsuite_icons"/>
                   </figure>
                   <h6 className="text-xl md:text-2xl lg:text-[1.75rem] font-medium leading-[1.3] text-[#2A4448] mb-3 md:mb-4 max-w-full lg:max-w-[12.5rem]">
                     {item?.title}
