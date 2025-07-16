@@ -63,9 +63,9 @@ const data = {
                 link: "/about",
               },
               banner_media: {
-                media_type: "image",
-                url: "https://raw.githubusercontent.com/christojojo/jobin-jismi/refs/heads/master/public/images/homebanner/banner_poster.webp",
-                stream_url: "",
+                media_type: "video",
+                // url: "https://raw.githubusercontent.com/christojojo/jobin-jismi/refs/heads/master/public/images/homebanner/banner_poster.webp",
+                stream_url: "https://v.ftcdn.net/02/44/86/78/700_F_244867831_wkyFjD78uQnSPUl6Y8rUG0AunveUCXby_ST.mp4",
                 alt: "home-banner-img-1",
               }, 
               brand_images: [

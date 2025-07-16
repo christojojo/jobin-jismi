@@ -141,3 +141,7 @@ body {
     border-color: var(--primary);
   }
 }
+
+::-webkit-scrollbar{
+  display: none;
+}

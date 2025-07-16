@@ -10,15 +10,15 @@ const Button = ({
 }) => {
   const variants = {
     primary:
-      "bg-primary border-primary rounded-[8px] text-black hover:bg-secondaryHover hover:text-white hover:border-white",
+      "bg-primary border-primary rounded-[8px] text-black hover:bg-secondaryHover hover:text-white hover:border-secondaryHover",
     outline:
-      "border border-[#FFFFFF80] bg-transparent rounded-lg text-white hover:bg-primary hover:text-black",
+      "border border-[#FFFFFF80] bg-transparent rounded-lg text-white hover:bg-primary hover:text-black hover:border-primary",
   };
 
   const sizes = {
     // sm: "px-5 xxl:px-[28px] py-3 xxl:py-14 font-semibold rounded-md",
     // md: "px-5 xxl:px-[28px] py-3 xxl:py-14 font-semibold rounded-md",
-    lg: "py-3.5 px-[1.524rem] font-semibold rounded-md leading-5",
+    lg: "py-3.5 px-[1.524rem]  font-semibold rounded-md leading-5",
   };
 
   const baseClass =
